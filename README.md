@@ -57,3 +57,12 @@ In this tutorial go to Local and Google Cloud.
 kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
 
 ```
+
+## GG Cloud
+
+1. Create google cloud project
+console.cloud.google.com
+
+2. Create gke *notes cost will over free trial credit
+
+3. 
