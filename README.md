@@ -65,4 +65,17 @@ console.cloud.google.com
 
 2. Create gke *notes cost will over free trial credit
 
-3. 
+
+## RBAC
+
+### User Accounts 
+Identifiles a *person* administering our cluster
+
+### Service Accounts
+Identifiles a *Pod* administering
+
+### ClusterRoleBinding
+Authorizes an account to do a certain set of actions across the entire cluster
+
+### RoleBinding
+Authorizes an account to do a certain set of actions in a *single namespace*
